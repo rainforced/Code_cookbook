@@ -1,0 +1,20 @@
+[
+    {
+        "age": 24,
+        "courses": {
+            "English": 5,
+            "math": 4
+        },
+        "education": true,
+        "firstName": "Rick"
+    },
+    {
+        "age": 23,
+        "courses": {
+            "English": 1,
+            "math": 2
+        },
+        "education": true,
+        "firstName": "Alex"
+    }
+]
