@@ -1,3 +1,3 @@
 # Code_cookbook
 ## Outline
-1. [Python](./Python/)
+1. [Python](./Python)
