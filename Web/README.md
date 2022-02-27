@@ -2,6 +2,7 @@
 1. [Chapter 1: Общее про Web](./Chapters/Chapter1_General.ipynb)
 2. [Chapter 2: HTTP](./Chapters/Chapter2_HTTP.ipynb)
 3. [Chapter 3: Sockets](./Chapters/Chapter3_Sockets.ipynb)
+4. [Chapter X: SQL](./Chapters/ChapterX_SQL.ipynb)
 
 
 
