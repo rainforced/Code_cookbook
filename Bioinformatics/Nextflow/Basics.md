@@ -1,0 +1,5 @@
+# What is nextflow
+**Nextflow** - фреймворк для создания пайплайнов
+- В его основе лежит собственный domain-specific language (DSL) т.е. свой упрощенный язык. Под капотом, он написан на Groovy, а он основан на Java. Поэтому, требуется установка JVM.
+
+In practice a **Nextflow pipeline script** is made by joining together different processes. Each process can be written in any scripting language that can be executed by the Linux platform (Bash, Perl, Ruby, Python, etc.). Processes are executed independently and are isolated from each other, i.e. they do not share a common (writable) state. The only way they can communicate is via asynchronous FIFO (т.е. first in, first out) queues, called **channels** in Nextflow. Any process can define one or more channels as *input* and *output*. The interaction between these processes, and ultimately the pipeline execution flow itself, is implicitly (неявно) defined by these input and output declarations.
